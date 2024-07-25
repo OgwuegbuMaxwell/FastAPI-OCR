@@ -24,6 +24,7 @@ Clone this repository and navigate into the project directory. Create a virtual 
 python -m venv env
 env\Scripts\activate  # On Windows
 source env/bin/activate  # On Unix or MacOS
+```
 
 
 ### Step 3: Install required Python packages
