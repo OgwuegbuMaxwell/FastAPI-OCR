@@ -25,3 +25,24 @@ python -m venv env
 env\Scripts\activate  # On Windows
 source env/bin/activate  # On Unix or MacOS
 
+
+### Step 3: Install required Python packages
+Install the required packages using pip:
+
+`pip install -r requirements.txt
+`
+
+### Running the Application
+With all dependencies installed, you can run the server using:
+`uvicorn main:app --reload
+`
+The FastAPI server will start, and you can view the API documentation by navigating to `http://127.0.0.1:8000/docs` in your web browser.
+
+
+### Using the API
+To use the OCR functionality:
+
+1. Go to` http://127.0.0.1:8000/docs`.
+2. Use the `/` endpoint to upload an image.
+3. The API will return the extracted text as a response
+
